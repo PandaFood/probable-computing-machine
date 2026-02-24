@@ -8,6 +8,7 @@ export default function Header() {
       <nav className={styles.nav}>
         <Link to="/schedule">Schedule</Link>
         <Link to="/travel">Travel Tips</Link>
+        <Link to="/gifts">Gifts</Link>
         <Link to="/rsvp">RSVP</Link>
       </nav>
     </header>

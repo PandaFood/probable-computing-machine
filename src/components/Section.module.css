@@ -106,6 +106,16 @@
   text-underline-offset: 3px;
 }
 
+.prose {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 15px;
+  line-height: 1.8;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
 .comingSoon {
   text-align: center;
   font-size: 14px;

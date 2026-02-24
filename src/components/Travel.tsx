@@ -15,8 +15,10 @@ export default function Travel() {
             <a href="https://www.severovychod.sk/en/trip/kastiel-fintice/" target="_blank" rel="noreferrer">
               Kastiel Fintice
             </a>
-            , on the outskirts of Prešov. We recommend booking accommodation in Prešov. If you
-            want to be in the city centre, have a look at Hlavná, Slovenská ulica, or Jarková.
+            , on the outskirts of Prešov. We recommend booking accommodation in Prešov, ideally
+            in the city centre around Hlavná(Main Street), Slovenská ulica(Close to Main Street), or Jarková(Close to Main Street). A shuttle will be
+            running between the centre and the venue all night, so staying central means you can
+            make the most of it — see Getting to the Wedding from Prešov below.
           </p>
           <p className={styles.cardSubheading}>Apartments &amp; Guesthouses</p>
           <ul className={styles.linkList}>
@@ -32,6 +34,20 @@ export default function Travel() {
             <li>Hotel Belier</li>
             <li>Linneas Hotel</li>
           </ul>
+        </div>
+
+        {/* GETTING TO THE VENUE */}
+        <div className={styles.card}>
+          <h3 className={styles.cardHeading}>Getting to the Wedding from Prešov</h3>
+          <p className={styles.cardBody}>
+            No need to worry about the journey between the city and Kastiel Fintice. A taxi
+            shuttle will be running throughout the evening, picking up and dropping off at a
+            central location in Prešov (TBD) and the venue. It will run all night so you can
+            come and go as it suits you.
+          </p>
+          <p className={styles.cardBody}>
+            More details on the exact pickup point will be shared closer to the date.
+          </p>
         </div>
 
         {/* GETTING TO PREŠOV */}
