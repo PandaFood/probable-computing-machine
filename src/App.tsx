@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ImageBanner from './components/ImageBanner';
@@ -18,7 +18,7 @@ function Home() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <main>
         <Routes>
@@ -29,6 +29,6 @@ export default function App() {
           <Route path="/gifts" element={<Gifts />} />
         </Routes>
       </main>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
