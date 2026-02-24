@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S J Wedding</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f1eb;
+            color: #2c4a6e;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        .logo {
+            font-size: 24px;
+            letter-spacing: 0.3em;
+            font-weight: 300;
+        }
+
+        .nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #2c4a6e;
+            font-size: 14px;
+            letter-spacing: 0.05em;
+            transition: opacity 0.3s;
+        }
+
+        .nav a:hover {
+            opacity: 0.7;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .monogram {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 40px;
+            position: relative;
+        }
+
+        .monogram svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .names {
+            font-size: 36px;
+            letter-spacing: 0.15em;
+            margin-bottom: 20px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        .date {
+            font-size: 28px;
+            letter-spacing: 0.2em;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            background-color: #2c4a6e;
+            color: white;
+            padding: 12px 40px;
+            text-decoration: none;
+            letter-spacing: 0.2em;
+            font-size: 12px;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+
+        .rsvp-button:hover {
+            background-color: #1f3650;
+        }
+
+        .welcome-text {
+            max-width: 600px;
+            margin: 50px auto;
+            line-height: 1.8;
+            font-size: 15px;
+            padding: 0 20px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 1px;
+            background-color: #d4c5b0;
+            margin: 30px auto;
+        }
+
+        .image-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .image-section img {
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">S J</div>
+        <nav class="nav">
+            <a href="#schedule">Schedule</a>
+            <a href="#travel">Travel Tips</a>
+            <a href="#wear">What to Wear</a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <div class="monogram">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Arch background -->
+                <path d="M 40 180 Q 40 80, 100 60 Q 160 80, 160 180" 
+                      fill="none" 
+                      stroke="#2c4a6e" 
+                      stroke-width="1.5"/>
+                
+                <!-- Floral decorations - left side -->
+                <g transform="translate(50, 100)">
+                    <!-- Stem -->
+                    <line x1="0" y1="0" x2="-5" y2="30" stroke="#2c4a6e" stroke-width="1"/>
+                    <!-- Flowers -->
+                    <circle cx="0" cy="0" r="4" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                    <circle cx="-2" cy="8" r="3" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                    <circle cx="2" cy="15" r="3.5" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                </g>
+
+                <!-- Floral decorations - right side -->
+                <g transform="translate(150, 100)">
+                    <!-- Stem -->
+                    <line x1="0" y1="0" x2="5" y2="30" stroke="#2c4a6e" stroke-width="1"/>
+                    <!-- Leaves -->
+                    <ellipse cx="2" cy="10" rx="4" ry="2" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                    <ellipse cx="4" cy="20" rx="3" ry="2" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                </g>
+
+                <!-- Bottom floral cluster -->
+                <g transform="translate(100, 140)">
+                    <!-- Large flower -->
+                    <circle cx="0" cy="0" r="8" fill="none" stroke="#2c4a6e" stroke-width="1.5"/>
+                    <circle cx="0" cy="0" r="3" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                    <!-- Petals -->
+                    <circle cx="-6" cy="-2" r="4" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                    <circle cx="6" cy="-2" r="4" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                    <!-- Leaves -->
+                    <ellipse cx="-12" cy="5" rx="5" ry="8" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                    <ellipse cx="12" cy="5" rx="5" ry="8" fill="none" stroke="#2c4a6e" stroke-width="1"/>
+                </g>
+
+                <!-- Initials -->
+                <text x="100" y="95" font-size="48" fill="#2c4a6e" text-anchor="middle" font-family="Georgia, serif">S</text>
+                <text x="100" y="135" font-size="48" fill="#2c4a6e" text-anchor="middle" font-family="Georgia, serif">J</text>
+            </svg>
+        </div>
+
+        <h1 class="names">Sarah Johnson & James Anderson</h1>
+        <p class="date">5 · 23 · 2023</p>
+        
+        <a href="#rsvp" class="rsvp-button">RSVP</a>
+
+        <div class="welcome-text">
+            Welcome to our wedding website! We are so excited to celebrate with you. Please know that this being a destination event, we understand if travel may be too difficult and would be more than happy to celebrate with you another time somewhere closer.
+        </div>
+
+        <div class="divider"></div>
+    </div>
+
+    <div class="image-section">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=400&fit=crop" alt="Beach landscape">
+    </div>
+</body>
+</html>

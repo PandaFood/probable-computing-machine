@@ -1,0 +1,44 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.names {
+  font-size: 36px;
+  letter-spacing: 0.15em;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.date {
+  font-size: 28px;
+  letter-spacing: 0.2em;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.rsvpButton {
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  padding: 12px 40px;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  font-family: inherit;
+}
+
+.rsvpButton:hover {
+  background-color: #1f3650;
+}
+
+.welcomeText {
+  max-width: 600px;
+  margin: 50px auto 0;
+  line-height: 1.8;
+  font-size: 15px;
+  padding: 0 20px;
+}

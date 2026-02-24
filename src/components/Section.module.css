@@ -1,0 +1,116 @@
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 70px 30px;
+}
+
+/* Timeline (Schedule) */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 10px;
+}
+
+.timelineItem {
+  display: grid;
+  grid-template-columns: 80px 24px 1fr;
+  align-items: center;
+  gap: 16px;
+}
+
+.time {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  border: 1.5px solid var(--primary);
+  justify-self: center;
+}
+
+.eventLabel {
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  font-weight: 400;
+}
+
+.eventDetail {
+  font-size: 13px;
+  opacity: 0.65;
+  margin-top: 2px;
+  letter-spacing: 0.03em;
+}
+
+/* Cards (Travel) */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.card {
+  border-left: 1px solid var(--accent);
+  padding-left: 20px;
+}
+
+.cardHeading {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.cardBody {
+  font-size: 15px;
+  line-height: 1.8;
+  opacity: 0.85;
+  margin-top: 8px;
+}
+
+.cardBody a {
+  color: var(--primary);
+  text-underline-offset: 3px;
+}
+
+.cardSubheading {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.linkList,
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.linkList a {
+  color: var(--primary);
+  text-underline-offset: 3px;
+}
+
+.comingSoon {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  margin-top: 10px;
+}

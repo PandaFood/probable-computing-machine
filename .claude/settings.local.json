@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/home/panda/.bun/bin/bun run build)",
+      "Bash(/home/panda/.bun/bin/bun add --cwd /home/panda/Documents/wedding react-router-dom)",
+      "Bash(/home/panda/.bun/bin/bun run --cwd /home/panda/Documents/wedding build)"
+    ]
+  }
+}

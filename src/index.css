@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f5f1eb;
+  --primary: #2c4a6e;
+  --accent: #d4c5b0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: var(--bg);
+  color: var(--primary);
+  min-height: 100vh;
+}
+
+.divider {
+  width: 60px;
+  height: 1px;
+  background-color: var(--accent);
+  margin: 30px auto;
+}
+
+.section-title {
+  font-size: 22px;
+  letter-spacing: 0.25em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}

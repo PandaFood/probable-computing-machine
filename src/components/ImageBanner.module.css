@@ -1,0 +1,11 @@
+.imageSection {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.imageSection img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
