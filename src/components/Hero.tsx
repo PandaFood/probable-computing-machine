@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <Monogram />
-      <h1 className={styles.names}>Stanislava Borisova &amp; Jonathan Brorsson</h1>
+      <h1 className={styles.names}>Stanislava &amp; Jonathan</h1>
       <p className={styles.date}>2026 · 8 · 15</p>
       <Link to="/rsvp" className={styles.rsvpButton}>RSVP</Link>
       <div className={styles.welcomeText}>

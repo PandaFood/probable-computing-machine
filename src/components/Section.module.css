@@ -116,6 +116,57 @@
   margin: 0 auto;
 }
 
+/* Translation table (Slovak) */
+.translationTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.translationTable th {
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  font-weight: 400;
+  padding: 0 12px 8px 0;
+  border-bottom: 1px solid var(--accent);
+}
+
+.translationTable th:first-child {
+  padding-left: 0;
+}
+
+.translationTable td {
+  padding: 7px 12px 7px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  vertical-align: middle;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+.translationTable td:first-child {
+  padding-left: 0;
+}
+
+.translationTable tr:last-child td {
+  border-bottom: none;
+}
+
+.translationSlovak {
+  font-weight: 600;
+  color: var(--primary);
+  opacity: 1 !important;
+}
+
+.translationPronunciation {
+  font-style: italic;
+  opacity: 0.55 !important;
+  font-size: 13px;
+}
+
 .comingSoon {
   text-align: center;
   font-size: 14px;

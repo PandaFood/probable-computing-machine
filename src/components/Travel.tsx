@@ -115,7 +115,7 @@ export default function Travel() {
             Prešov has good and cheap buses and trolleybuses. Check connections at{' '}
             <a href="http://www.dpmp.sk" target="_blank" rel="noreferrer">dpmp.sk</a> (Slovak only)
             or use one of these apps: <strong>Ubian</strong>, <strong>MHD Prešov</strong>,{' '}
-            <strong>iMHD Prešov</strong>. Note that Google Maps has poor coverage here.
+            <strong>iMHD Prešov</strong>. You can also just use Google Maps.
           </p>
           <p className={styles.cardBody}>
             On dpmp.sk, select <em>Pracovný deň – prázdniny</em> for weekdays and{' '}

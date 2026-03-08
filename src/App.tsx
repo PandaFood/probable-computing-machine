@@ -6,6 +6,7 @@ import Schedule from './components/Schedule';
 import Travel from './components/Travel';
 import RSVP from './components/RSVP';
 import Gifts from './components/Gifts';
+import Slovak from './components/Slovak';
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/travel" element={<Travel />} />
           <Route path="/rsvp" element={<RSVP />} />
           <Route path="/gifts" element={<Gifts />} />
+          <Route path="/slovak" element={<Slovak />} />
         </Routes>
       </main>
     </HashRouter>
